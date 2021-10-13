@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 文字コード設定 -->
+    <meta charset="UTF-8" />
+    <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ページタイトル -->
+    <title>Fullushちゃん</title>
+    <!-- ページ情報 -->
+    <meta name="description" content="芸工展2021‘非’公認キャラクターFUllUSHちゃん紹介ページ" />
+    <!-- 検索で引っかかるようにする -->
+    <meta name="keywords" content="名古屋市立大学,名市大,芸術工学部,芸工,芸工展,Fullush,フラッシュちゃん,寫白,出羽,寫白出羽" />
+    <!-- css読み込み -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- jquery読み込み(必要な人のみ) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- ページロゴ -->
+    <link rel="icon" type=image/png href="images/icon-cl.png">
+    <!-- Safariでも読み込めるようにする -->
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-bg pc">
+            <ul class="header-nav-list">
+                <li>
+                    <h2 class="header-menu">MENU</h2>
+                </li>
+                <li>
+                    <a href="#INTRODUCTION">
+                        <span class="header-eng">Introduction</span><br />
+                        自己紹介
+                    </a>
+                </li>
+                <li>
+                    <a href="#PROMOTION">
+                        <span class="header-eng">Promotion</span><br />
+                        PV
+                    </a>
+                </li>
+                <li>
+                    <a href="#SN">
+                        <span class="header-eng">Soricit names</span><br />
+                        名前募集
+                    </a>
+                </li>
+                <li>
+                    <a href="#DOWNLOAD">
+                        <span class="header-eng">Download</span><br />
+                        ダウンロード
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- スマホ -->
+        <div class="hamburger-menu sp">
+            <input type="checkbox" id="menu-check">
+            <!-- ↓ハンバーガー -->
+            <label for="menu-check" class="menu-btn">
+              <span></span>
+              <p>MENU</p>
+            </label>
+            <div class="hamb-bg"><img src="images/hamb-bg.png"></div>
+            <!-- ↓ハンバーガーメニューの中身 -->
+            <nav class="menu-content">
+                <h2 class="header-menu">MENU</h2>
+                <ul id="menu">
+                    <li><div class="stripe-hamb"></div></li>
+                    <li><a href="#">▶︎  <span>Top</span></a></li>
+                    <li><a href="#INTRODUCTION">▶︎  <span>Introduction</span> –––––––––– 自己紹介</a></li>
+                    <li><a href="#PROMOTION">▶︎  <span>Promotion</span> –––––––––––––––––– PV</a></li>
+                    <li><a href="#SN">▶︎  <span>Soricit names</span> –––––––– 名前募集</a></li>
+                    <li><a href="#DOWNLOAD">▶︎  <span>Download</span> ––––––––– ダウンロード</a></li>
+                    <li><div class="stripe-hamb"></div></li>
+                </ul>
+                <p class="copyright">FUllUSH-chan Production committee / GEIKO TEN 2021</p>
+            </nav>
+        </div>
+        <!-- ここまで -->
+    </header>
+    <!--ローディング-->
+    <div id='loading'>
+        <div class="scaling-squares-spinner" :style="spinnerStyle">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+    <section class="top">
+        <h3 class="concept fadeIn">
+            <span>芸工展２０２１<br /></span>
+            <span>非公認キャラクター　寫白 出羽<br /></span>
+            <span>始動––––––</span>
+        </h3>
+        <div class="top-logo-sp sp">
+            <div class="centerlogo top-logo-cl">
+                <img src="images/top-logo-sp.png">
+            </div>
+            <img class="logo-box" src="images/top-logobox-sp.png">
+        </div>
+        <div class="scrolldown1 sp"><span>PAGE&nbsp;DOWN</span></div>
+    </section>
+    </div>
+    <div class="all-section">
+        <section class="sections introduction fadeIn">
+            <div class="introduction-id">
+                <a id="INTRODUCTION" name="jump-introduction"></a>
+            </div>
+            <h2 class="section-title">
+                <span>自己紹介</span>
+            </h2>
+            <div class="stripe"></div>
+            <img class="section-img pc" src="images/haikei-1.png">
+            <img class="section-img sp" src="images/haikei-1-sp.png">
+            <h3 class="subtext fadeIn">introduction</h3>
+            <h4 class="introduction-name">
+                寫白出羽<br class="sp" /><span>(しゃしろいずは)</span><br class="sp" />
+                とは？
+            </h4>
+            <img class="introduction-block pc" src="images/block.png">
+            <img class="introduction-block sp" src="images/block-sp.png">
+            <p class="introduction-ex">
+                普段は寡黙で真面目だが写真が絡むと性格が豹変し、<br class="pc" />
+                嵐のようにやって来ては写真を撮って帰っていく。<br class="pc"/>
+                はい、ちーず！が決めゼリフ。
+            </p>
+            <p class="introduction-list">
+                <span>誕生日　–––––––––　11月30日(カメラの日)<br /></span>
+                <span>年齢　–––––––––––　???歳<br /></span>
+                <span>身長　–––––––––––　161cm<br /></span>
+                <span>特技　–––––––––––　写真を撮ること<br /></span>
+                <span>趣味　–––––––––––　法に触れない範囲内の盗撮<br /></span>
+                <span>好きな食べ物　–––　白米、ミントティー<br /></span>
+            </p>
+            <img class="fullush-stand" src="images/fullush-stand.png">
+        </section>
+        <section class="sections promotion fadeIn">
+            <div class="promotion-id">
+                <a id="PROMOTION" name="jump-promotion"></a>
+            </div>
+            <h2 class="section-title">
+                <span>PV</span>
+            </h2>
+            <div class="stripe"></div>
+            <img class="section-img pc" src="images/haikei-1.png">
+            <img class="section-img sp" src="images/haikei-2-sp.png">
+            <iframe 
+                class="pc"
+                style="position: absolute; top: 12vw; left: 17.5vw; width: 65%; height: 55%;" 
+                src="https://www.youtube.com/embed/AA9QR5_Pm_c" 
+                frameborder="0" 
+                allow="autoplay; 
+                encrypted-media" 
+                allowfullscreen>
+            </iframe>
+            <iframe 
+                class="sp"
+                style="position: absolute; top: 185px; left: 5vw; width: 90%; height: 35%;" 
+                src="https://www.youtube.com/embed/AA9QR5_Pm_c" 
+                frameborder="0" 
+                allow="autoplay; 
+                encrypted-media" 
+                allowfullscreen>
+            </iframe>
+            <h3 class="subtext subtext-sp fadeIn">promotion</h3>
+        </section>
+        <section class="sections soricitnames fadeIn">
+            <div class="sn-id">
+                <a id="SN" name="jump-sn"></a>
+            </div>
+            <h2 class="section-title">
+                <span>名前募集</span>
+            </h2>
+            <div class="stripe"></div>
+            <img class="section-img pc" src="images/haikei-1.png">
+            <img class="section-img sp" src="images/haikei-1-sp.png">
+            <h3 class="subtext fadeIn">soricitnames</h3>
+            <h4 class="soricitnames-main">
+                <span>たくさんの応募<br class="sp" />
+                    ありがとうございました！</span>
+            </h4>
+            <h5 class="soricitnames-sub">
+                募集の結果、<br class="sp" />
+                FULLUSHちゃん(仮)の名前は<br />
+                <span class="hover">寫白 出羽</span> (しゃしろいずは)<br />
+                に決定しました！！
+            </h5>
+            <img class="fukidasi pc" src="images/fukidasi-pc.png">
+            <img class="fukidasi sp" src="images/fukidasi-sp.png">
+        </section>
+        <section class="sections download fadeIn">
+            <div class="download-id">
+                <a id="DOWNLOAD" name="jump-download"></a>
+            </div>
+            <h2 class="section-title">
+                <span>ダウンロード</span>
+            </h2>
+            <div class="stripe"></div>
+            <img class="section-img pc" src="images/haikei-2.png">
+            <img class="section-img sp" src="images/haikei-1-sp.png">
+            <h3 class="subtext subtext02 fadeIn">download</h3>
+            <h4 class="download-text">3種類の壁紙をダウンロードできます</h4>
+            <div class="download-container ImgBox pc">
+                <a class="ImgBox-Img bg-img01" href=""><img src="images/back-pic01.png"></a>
+                <a class="ImgBox-Img bg-img02" href=""><img src="images/back-pic02.png"></a>
+                <a class="ImgBox-Img bg-img03" href=""><img src="images/back-pic03.png"></a>
+            </div>
+        </section>
+        <div class="pc">
+            <div class="modal-pc modal01">
+                <div class="bigimg pc"><img src="images/fullush01.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+            <div class="modal-pc modal02">
+                <div class="bigimg pc"><img src="images/fullush02.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+            <div class="modal-pc modal03">
+                <div class="bigimg pc"><img src="images/fullush03.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+        </div>
+        <div class="sp">
+            <div class="modal-sp modal01">
+                <div class="bigimg sp"><img src="images/fullush01-sp.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+            <div class="modal-sp modal02">
+                <div class="bigimg sp"><img src="images/fullush02-sp.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+            <div class="modal-sp modal03">
+                <div class="bigimg sp"><img src="images/fullush03-sp.png" alt=""></div>
+                <p class="close-btn"><a href="">×</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bottom-container pc">
+            <a href=""><img class="logo01" src="images/fullush.png" /></a>
+            <a href=""><img class="logo02" src="images/logo-set.png" /></a>
+        </div>
+        <div class="bottom-container-sp sp">
+            <a href=""><img class="logo01-sp" src="images/fullush-bg.png" /></a>
+            <a href=""><img class="logo02-sp" src="images/fullushlogo-sp.png" /></a>
+        </div>
+        <div class="scroll-top pc">
+            <a id="scroll-to-top">
+                <img src="images/scroll.png" />
+                <figcaption>TOPへ</figcaption>
+            </a>
+        </div>
+        <p class="copyright pc">FUllUSH-chan Production committee / GEIKO TEN 2021</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="rellax.min.js"></script>
+</body>
+
+</html>
