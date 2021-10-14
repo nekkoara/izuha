@@ -13,11 +13,6 @@
 }
 
 @font-face {
-  font-family: "Genshin";
-  src: url(../font/GenShinGothic-Medium.ttf);
-}
-
-@font-face {
   font-family: "NotoSans-m";
   src: url(../font/NotoSansJP-Medium.otf);
 }
@@ -199,7 +194,7 @@ header {
 }
 
 .concept > span {
-  padding: 32px 0.5vw;
+  padding: 32px 0.3vw;
   background-color: #f8f217;
   box-shadow: 0px 2px 8px #342f2e;
 }
@@ -831,7 +826,7 @@ footer {
   }
 
   .concept > span {
-    padding: 28px 5px;
+    padding: 28px 3px;
   }
 
   .top-logo-sp {
