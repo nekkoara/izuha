@@ -17,6 +17,11 @@
   src: url(../font/GenShinGothic-Medium.ttf);
 }
 
+@font-face {
+  font-family: "NotoSans";
+  src: url(../font/NotoSansJP-Medium.otf);
+}
+
 .fadeIn {
   transition: 1s ease;
   transform: translate(0, 40px) 　scale(0.5);
@@ -49,7 +54,7 @@ body {
   /* background-attachment: fixed; */
   background-size: contain, cover;
   /* background-size: cover; */
-  font-family: "Genshin";
+  font-family: "Notosans";
 
   width: 100%;
   color: white;
@@ -822,13 +827,13 @@ footer {
 
   .top-logo-sp {
     position: relative;
-    top: 250px;
+    top: 60px;
   }
 
   .top-logo-cl {
     position: absolute;
-    top: -130px;
-    left: 24vw;
+    top: 0;
+    left: 24.7vw;
   }
 
   .top-logo-cl img {
@@ -836,7 +841,7 @@ footer {
   }
 
   .logo-box {
-    top: -110px;
+    top: 20px;
     width: 100%;
     position: absolute;
   }
@@ -848,7 +853,7 @@ footer {
   }
 
   .all-section {
-    top: 50vh;
+    top: 40vh;
   }
 
   .subtext {
