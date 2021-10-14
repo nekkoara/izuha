@@ -960,7 +960,8 @@ footer {
   }
 
   .close-btn {
-    top: 10px;
+    top: 0;
+    right: 3px;
   }
 
   footer {
