@@ -18,8 +18,13 @@
 }
 
 @font-face {
-  font-family: "NotoSans";
+  font-family: "NotoSans-m";
   src: url(../font/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+  font-family: "NotoSans-r";
+  src: url(../font/NotoSansJP-Regular.otf);
 }
 
 .fadeIn {
@@ -54,7 +59,7 @@ body {
   /* background-attachment: fixed; */
   background-size: contain, cover;
   /* background-size: cover; */
-  font-family: "Notosans";
+  font-family: "Notosans-m";
 
   width: 100%;
   color: white;
@@ -242,6 +247,7 @@ header {
 }
 
 .introduction p {
+  font-family: "Notosans-r";
   font-size: 24px;
   color: black;
   font-weight: bold;
@@ -315,11 +321,13 @@ header {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   line-height: 100px;
+  font-family: "Notosans-r";
 }
 
 .soricitnames-sub > span {
   font-size: 64px;
   padding-top: 100px;
+  font-family: "Notosans-m";
 }
 
 .fukidasi {
@@ -334,7 +342,8 @@ header {
   color: black;
   position: absolute;
   top: 13vw;
-  left: 13vw;
+  left: 8vw;
+  font-family: "Notosans-r";
 }
 
 .download-container {
