@@ -821,7 +821,7 @@ footer {
   .concept {
     font-size: 14px;
     line-height: 10vw;
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 30px;
   }
 
@@ -857,7 +857,7 @@ footer {
   }
 
   .all-section {
-    top: 40vh;
+    top: 50vh;
   }
 
   .subtext {
